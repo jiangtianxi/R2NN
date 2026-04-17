@@ -19,6 +19,8 @@ The metacircuit-based R<sup>2</sup>NN is realized by first training a R<sup>2</s
 * scikit-learn==1.0.2
 * scipy==1.8.0
 
+> **⚠️ Compatibility Warning:**  Please strictly adhere to the package versions listed above. Using newer versions (especially for PyTorch) may lead to deprecated API errors, environment conflicts, or unexpected behavior during training. We highly recommend creating a dedicated Conda environment to cleanly manage these specific dependencies.
+
 ## Usage
 
 **Steps:**
