@@ -1,0 +1,32 @@
+netlist,origin,source,tolerance,board_selector,GBW_MHz
+linear_5x5/component_tolerances/ALL.net,project schematic template,R2NN55ForParityCheck_Linear_LTspice/R2NN55TestWithoutCellTL082Monte_ALL.asc,passive_tol=0.005,all_passive_sample=1,
+linear_5x5/component_tolerances/GIC_C.net,project schematic template,R2NN55ForParityCheck_Linear_LTspice/R2NN55TestWithoutCellTL082Monte_GIC_C.asc,GIC_C_tol=0.001,GIC_C_sample=1,
+linear_5x5/component_tolerances/GIC_R.net,project schematic template,R2NN55ForParityCheck_Linear_LTspice/R2NN55TestWithoutCellTL082Monte_GIC_R.asc,GIC_R_tol=0.001,GIC_R_sample=1,
+linear_5x5/component_tolerances/Rc.net,project schematic template,R2NN55ForParityCheck_Linear_LTspice/R2NN55TestWithoutCellTL082Monte_Rc.asc,Rc_tol=0.01,Rc_sample=1,
+linear_5x5/component_tolerances/Rn.net,project schematic template,R2NN55ForParityCheck_Linear_LTspice/R2NN55TestWithoutCellTL082Monte_Rn.asc,Rn_tol=0.01,Rn_sample=1,
+nonlinear_7x7/component_tolerances/ALL.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_All.zip!responseSample_R2NN77TestWithoutCellMonte_All1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_ALL_batch.net,0.01,1,
+nonlinear_7x7/component_tolerances/GIC_C.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_GIC_C.zip!responseSample_R2NN77TestWithoutCellMonte_GIC_C1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_GIC_C_batch.net,0.01,1,
+nonlinear_7x7/component_tolerances/GIC_R.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_GIC_R.zip!responseSample_R2NN77TestWithoutCellMonte_GIC_R1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_GIC_R_batch.net,0.01,1,
+nonlinear_7x7/component_tolerances/RC.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_Rc.zip!responseSample_R2NN77TestWithoutCellMonte_Rc1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_Rc_batch.net,0.01,1,
+nonlinear_7x7/component_tolerances/RNL.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_RnL.zip!responseSample_R2NN77TestWithoutCellMonte_RnL1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_RnL_batch.net,0.01,1,
+nonlinear_7x7/component_tolerances/RNNL.net,archived representative board,responseSample_R2NN77TestWithoutCellMonte_RnNL.zip!responseSample_R2NN77TestWithoutCellMonte_RnNL1e-2Num1/_pyltspice_work/R2NN77TestWithoutCellMonte_RnNL_batch.net,0.01,1,
+linear_5x5/amplifier_gbw/GBW_1MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW1MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,1
+linear_5x5/amplifier_gbw/GBW_2MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW2MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,2
+linear_5x5/amplifier_gbw/GBW_3MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW3MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,3
+linear_5x5/amplifier_gbw/GBW_4MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW4MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,4
+linear_5x5/amplifier_gbw/GBW_5MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW5MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,5
+linear_5x5/amplifier_gbw/GBW_6MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW6MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,6
+linear_5x5/amplifier_gbw/GBW_7MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW7MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,7
+linear_5x5/amplifier_gbw/GBW_8MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW8MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,8
+linear_5x5/amplifier_gbw/GBW_9MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW9MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,9
+linear_5x5/amplifier_gbw/GBW_10MHz.net,archived GBW circuit,responseSimulationSample_GBW.zip!responseSimulationSample_GBW10MHz/_pyltspice_work/R2NN55TestWithoutCell_batch.net,,,10
+nonlinear_7x7/amplifier_gbw/GBW_1MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,1
+nonlinear_7x7/amplifier_gbw/GBW_2MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,2
+nonlinear_7x7/amplifier_gbw/GBW_3MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,3
+nonlinear_7x7/amplifier_gbw/GBW_4MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,4
+nonlinear_7x7/amplifier_gbw/GBW_5MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,5
+nonlinear_7x7/amplifier_gbw/GBW_6MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,6
+nonlinear_7x7/amplifier_gbw/GBW_7MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,7
+nonlinear_7x7/amplifier_gbw/GBW_8MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,8
+nonlinear_7x7/amplifier_gbw/GBW_9MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,9
+nonlinear_7x7/amplifier_gbw/GBW_10MHz.net,reconstructed from nominal schematic; GBW response archive has no circuit,R2NN77ForParityCheck_LTspice/R2NN77TestWithoutCell.asc,,,10

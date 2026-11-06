@@ -1,0 +1,9 @@
+bits,source_file,source_column_one_based,stimulus
+000,sample1.mat,6,inputSample/class1/sample1_6_000.txt
+001,sample2.mat,2,inputSample/class2/sample2_2_001.txt
+010,sample2.mat,3,inputSample/class2/sample2_3_010.txt
+011,sample1.mat,1,inputSample/class1/sample1_1_011.txt
+100,sample2.mat,4,inputSample/class2/sample2_4_100.txt
+101,sample1.mat,14,inputSample/class1/sample1_14_101.txt
+110,sample1.mat,3,inputSample/class1/sample1_3_110.txt
+111,sample2.mat,1,inputSample/class2/sample2_1_111.txt

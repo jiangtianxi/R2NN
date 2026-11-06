@@ -1,0 +1,9 @@
+# Nonlinear 7 × 7 temporal parity in LTspice
+
+The [nominal netlist](R2NN77TestWithoutCell.net) and [schematic](R2NN77TestWithoutCell.asc) implement the cubic 7 × 7 network with phase-neutral 40/60 Hz encoding. The nominal amplifier is the project's 4 MHz UniversalOpAmp4 model. The [TL082 comparison netlist](R2NN77TestWithoutCellTL082.net) and [schematic](R2NN77TestWithoutCellTL082.asc) use the TL082 macro-model instead. These are circuit simulations. The physical parity experiment in Fig. 2 uses the [linear 5 × 5 network](../parity_linear/README.md).
+
+Start with the nominal netlist. The default waveform has bit pattern `011` and enters at `in4`. The file contains 2 s of settling time followed by a 0.6 s encoded waveform. The transient stop time is 3 s. Read `V(out22)` and `V(out28)` and compare their squared sums over the input window (600 samples at 1 kHz). The probes correspond to even and odd parity, respectively. To test another waveform, change the `PWL file` argument in the selected netlist or schematic.
+
+The [input collection](inputSample/) contains 400 waveforms, 50 per bit pattern. The [eight example inputs](example_inputs.csv) identify the same cases as the mechanical model's archived eight-pattern summary for this 400-waveform set. The release does not identify a definitive amplifier configuration for each individual panel of Extended Data Fig. 4.
+
+The 4 MHz circuit is the nominal nonlinear schematic with the matching amplifier setting used in the bandwidth sweep. The TL082 version is derived from the archived TL082 batch circuit, with its recorded 3 s batch settings and local input and model paths. Its archived 400-waveform result was 302/400. Use the model name when reporting results for this comparison. For other bandwidths and tolerance examples, see the [separate circuit collection](../parity_tolerances/README.md).

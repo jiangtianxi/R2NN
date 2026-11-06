@@ -1,0 +1,5 @@
+* Numerical ideal op amp. Pin order: +in, -in, +rail, -rail, out.
+* No bandwidth pole, slew-rate limit, offset, noise, or output limit.
+.subckt IDEAL_OPAMP inp inn vp vn out params: Aideal=1e9
+Eout out 0 inp inn {Aideal}
+.ends IDEAL_OPAMP

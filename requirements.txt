@@ -1,0 +1,9 @@
+# Python 3.8
+# Install PyTorch 1.11.0 for your platform first (CPU or CUDA build), e.g.
+#   pip install torch==1.11.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+#   pip install torch==1.11.0+cpu   --extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.11.0
+numpy==1.22.3
+scipy==1.8.0
+scikit-learn==1.0.2
+matplotlib==3.5.1

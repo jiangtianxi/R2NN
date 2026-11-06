@@ -1,0 +1,44 @@
+# Local working files (not part of the release)
+Claude outputs/
+git推送说明.txt
+git.txt
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LTspice simulation output
+*.raw
+
+# ---------------------------------------------------------------------------
+# Large files hosted on Zenodo (unzip the archives in the repository root)
+# ---------------------------------------------------------------------------
+# R2NN_datasets.zip: dataset MAT files and the drone raw records.
+# The MATLAB generators, dataset_config.mat, dataset_metadata.mat and the
+# README files in data/ stay in the repository.
+R2NN_*/data/**/*.mat
+!R2NN_parity/data/*/dataset_config.mat
+!R2NN_drone/data/dataset_metadata.mat
+R2NN_drone/data/drone_vib_raw_data/
+
+# R2NN_LTspice_inputs.zip: LTspice input waveforms
+LTspiceProgram/drone/inputs/
+LTspiceProgram/parity_linear/inputs/
+LTspiceProgram/parity_nonlinear/inputSample/
+LTspiceProgram/parity_tolerances/inputs/
+LTspiceProgram/pulse_tactile/inputs/
+LTspiceProgram/speech/inputs/
+LTspiceProgram/baselines_parity/stimuli/
+
+# R2NN_parity_extra_logs.zip: parity logs not tied to the released models
+R2NN_parity/log/train_log_cubic_double_2026_08_07_00_32.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_07_03_53.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_07_07_20.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_10_14_55.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_10_23_41.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_11_01_57.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_11_07_22.txt
+R2NN_parity/log/train_log_cubic_double_2026_08_13_02_49.txt
+R2NN_parity/log/train_log_linear_double_2026_08_07_01_59.txt
+R2NN_parity/log/train_log_linear_double_2026_08_17_03_45.txt
